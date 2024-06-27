@@ -45,19 +45,19 @@ btn.addEventListener('click', () => {
 });
 
 function takeCommand(message) {
-    if (message.includes('Hey , How are you') || message.includes('hello how are you')) {
-        speak("Hello Sir, I'm fine, How May I Help You?");
-    } 
+    if (message.includes('hey') || message.includes('hello')) {
+        speak("Hello Sir, How May I Help You?");
+    }} 
     
-    
+ function takecommand(message) {   
     if (message.includes('What is your name?')) {
-        speak("My Name is jarvis and I'm an AI virtual Assistant");
+        speak("My Name is jarvis and I'm an AI virtual Assistant");}
     } 
     
-
+ function takecommand(message) {
     if (message.includes('Who is your founder?')) {
         speak("My founder is Muhammad Dawood ");
-    } 
+    }}
      else if (message.includes("Open Google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
